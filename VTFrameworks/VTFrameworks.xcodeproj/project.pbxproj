@@ -7,109 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA1C04E92BCBFFA10091092A /* VTFrameworks.docc in Sources */ = {isa = PBXBuildFile; fileRef = EA1C04E82BCBFFA10091092A /* VTFrameworks.docc */; };
-		EA1C04EF2BCBFFA10091092A /* VTFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C04E42BCBFFA10091092A /* VTFrameworks.framework */; };
-		EA1C04F42BCBFFA10091092A /* VTFrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C04F32BCBFFA10091092A /* VTFrameworksTests.swift */; };
-		EA1C04F52BCBFFA10091092A /* VTFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1C04E72BCBFFA10091092A /* VTFrameworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA1C04FF2BCBFFBC0091092A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C04FE2BCBFFBC0091092A /* Validator.swift */; };
+		EA1C052D2BCC0AC90091092A /* VTFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1C052C2BCC0AC90091092A /* VTFrameworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1C05342BCC0AD20091092A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C05332BCC0AD20091092A /* Validator.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EA1C04F02BCBFFA10091092A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA1C04DB2BCBFFA10091092A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA1C04E32BCBFFA10091092A;
-			remoteInfo = VTFrameworks;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		EA1C04E42BCBFFA10091092A /* VTFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1C04E72BCBFFA10091092A /* VTFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTFrameworks.h; sourceTree = "<group>"; };
-		EA1C04E82BCBFFA10091092A /* VTFrameworks.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VTFrameworks.docc; sourceTree = "<group>"; };
-		EA1C04EE2BCBFFA10091092A /* VTFrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTFrameworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1C04F32BCBFFA10091092A /* VTFrameworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTFrameworksTests.swift; sourceTree = "<group>"; };
-		EA1C04FE2BCBFFBC0091092A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		EA1C05292BCC0AC90091092A /* VTFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C052C2BCC0AC90091092A /* VTFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTFrameworks.h; sourceTree = "<group>"; };
+		EA1C05332BCC0AD20091092A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA1C04E12BCBFFA10091092A /* Frameworks */ = {
+		EA1C05262BCC0AC90091092A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA1C04EB2BCBFFA10091092A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA1C04EF2BCBFFA10091092A /* VTFrameworks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA1C04DA2BCBFFA10091092A = {
+		EA1C051F2BCC0AC90091092A = {
 			isa = PBXGroup;
 			children = (
-				EA1C04E62BCBFFA10091092A /* VTFrameworks */,
-				EA1C04F22BCBFFA10091092A /* VTFrameworksTests */,
-				EA1C04E52BCBFFA10091092A /* Products */,
+				EA1C052B2BCC0AC90091092A /* VTFrameworks */,
+				EA1C052A2BCC0AC90091092A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA1C04E52BCBFFA10091092A /* Products */ = {
+		EA1C052A2BCC0AC90091092A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA1C04E42BCBFFA10091092A /* VTFrameworks.framework */,
-				EA1C04EE2BCBFFA10091092A /* VTFrameworksTests.xctest */,
+				EA1C05292BCC0AC90091092A /* VTFrameworks.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA1C04E62BCBFFA10091092A /* VTFrameworks */ = {
+		EA1C052B2BCC0AC90091092A /* VTFrameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA1C04E72BCBFFA10091092A /* VTFrameworks.h */,
-				EA1C04E82BCBFFA10091092A /* VTFrameworks.docc */,
-				EA1C04FE2BCBFFBC0091092A /* Validator.swift */,
+				EA1C052C2BCC0AC90091092A /* VTFrameworks.h */,
+				EA1C05332BCC0AD20091092A /* Validator.swift */,
 			);
 			path = VTFrameworks;
-			sourceTree = "<group>";
-		};
-		EA1C04F22BCBFFA10091092A /* VTFrameworksTests */ = {
-			isa = PBXGroup;
-			children = (
-				EA1C04F32BCBFFA10091092A /* VTFrameworksTests.swift */,
-			);
-			path = VTFrameworksTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EA1C04DF2BCBFFA10091092A /* Headers */ = {
+		EA1C05242BCC0AC90091092A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1C04F52BCBFFA10091092A /* VTFrameworks.h in Headers */,
+				EA1C052D2BCC0AC90091092A /* VTFrameworks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EA1C04E32BCBFFA10091092A /* VTFrameworks */ = {
+		EA1C05282BCC0AC90091092A /* VTFrameworks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA1C04F82BCBFFA10091092A /* Build configuration list for PBXNativeTarget "VTFrameworks" */;
+			buildConfigurationList = EA1C05302BCC0AC90091092A /* Build configuration list for PBXNativeTarget "VTFrameworks" */;
 			buildPhases = (
-				EA1C04DF2BCBFFA10091092A /* Headers */,
-				EA1C04E02BCBFFA10091092A /* Sources */,
-				EA1C04E12BCBFFA10091092A /* Frameworks */,
-				EA1C04E22BCBFFA10091092A /* Resources */,
+				EA1C05242BCC0AC90091092A /* Headers */,
+				EA1C05252BCC0AC90091092A /* Sources */,
+				EA1C05262BCC0AC90091092A /* Frameworks */,
+				EA1C05272BCC0AC90091092A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -117,46 +82,25 @@
 			);
 			name = VTFrameworks;
 			productName = VTFrameworks;
-			productReference = EA1C04E42BCBFFA10091092A /* VTFrameworks.framework */;
+			productReference = EA1C05292BCC0AC90091092A /* VTFrameworks.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		EA1C04ED2BCBFFA10091092A /* VTFrameworksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA1C04FB2BCBFFA10091092A /* Build configuration list for PBXNativeTarget "VTFrameworksTests" */;
-			buildPhases = (
-				EA1C04EA2BCBFFA10091092A /* Sources */,
-				EA1C04EB2BCBFFA10091092A /* Frameworks */,
-				EA1C04EC2BCBFFA10091092A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA1C04F12BCBFFA10091092A /* PBXTargetDependency */,
-			);
-			name = VTFrameworksTests;
-			productName = VTFrameworksTests;
-			productReference = EA1C04EE2BCBFFA10091092A /* VTFrameworksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA1C04DB2BCBFFA10091092A /* Project object */ = {
+		EA1C05202BCC0AC90091092A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					EA1C04E32BCBFFA10091092A = {
+					EA1C05282BCC0AC90091092A = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					EA1C04ED2BCBFFA10091092A = {
-						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
-			buildConfigurationList = EA1C04DE2BCBFFA10091092A /* Build configuration list for PBXProject "VTFrameworks" */;
+			buildConfigurationList = EA1C05232BCC0AC90091092A /* Build configuration list for PBXProject "VTFrameworks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,26 +108,18 @@
 				en,
 				Base,
 			);
-			mainGroup = EA1C04DA2BCBFFA10091092A;
-			productRefGroup = EA1C04E52BCBFFA10091092A /* Products */;
+			mainGroup = EA1C051F2BCC0AC90091092A;
+			productRefGroup = EA1C052A2BCC0AC90091092A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA1C04E32BCBFFA10091092A /* VTFrameworks */,
-				EA1C04ED2BCBFFA10091092A /* VTFrameworksTests */,
+				EA1C05282BCC0AC90091092A /* VTFrameworks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA1C04E22BCBFFA10091092A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA1C04EC2BCBFFA10091092A /* Resources */ = {
+		EA1C05272BCC0AC90091092A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,35 +129,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA1C04E02BCBFFA10091092A /* Sources */ = {
+		EA1C05252BCC0AC90091092A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1C04FF2BCBFFBC0091092A /* Validator.swift in Sources */,
-				EA1C04E92BCBFFA10091092A /* VTFrameworks.docc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA1C04EA2BCBFFA10091092A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA1C04F42BCBFFA10091092A /* VTFrameworksTests.swift in Sources */,
+				EA1C05342BCC0AD20091092A /* Validator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		EA1C04F12BCBFFA10091092A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EA1C04E32BCBFFA10091092A /* VTFrameworks */;
-			targetProxy = EA1C04F02BCBFFA10091092A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		EA1C04F62BCBFFA10091092A /* Debug */ = {
+		EA1C052E2BCC0AC90091092A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		EA1C04F72BCBFFA10091092A /* Release */ = {
+		EA1C052F2BCC0AC90091092A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,9 +265,10 @@
 			};
 			name = Release;
 		};
-		EA1C04F92BCBFFA10091092A /* Debug */ = {
+		EA1C05312BCC0AC90091092A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -368,18 +288,20 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vijaythakur.frameworks.VTFrameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijaythakur.VTFrameworks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EA1C04FA2BCBFFA10091092A /* Release */ = {
+		EA1C05322BCC0AC90091092A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -399,44 +321,10 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vijaythakur.frameworks.VTFrameworks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijaythakur.VTFrameworks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		EA1C04FC2BCBFFA10091092A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9AS7TGQLM2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vijaythakur.frameworks.VTFrameworksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EA1C04FD2BCBFFA10091092A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9AS7TGQLM2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vijaythakur.frameworks.VTFrameworksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,34 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA1C04DE2BCBFFA10091092A /* Build configuration list for PBXProject "VTFrameworks" */ = {
+		EA1C05232BCC0AC90091092A /* Build configuration list for PBXProject "VTFrameworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA1C04F62BCBFFA10091092A /* Debug */,
-				EA1C04F72BCBFFA10091092A /* Release */,
+				EA1C052E2BCC0AC90091092A /* Debug */,
+				EA1C052F2BCC0AC90091092A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA1C04F82BCBFFA10091092A /* Build configuration list for PBXNativeTarget "VTFrameworks" */ = {
+		EA1C05302BCC0AC90091092A /* Build configuration list for PBXNativeTarget "VTFrameworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA1C04F92BCBFFA10091092A /* Debug */,
-				EA1C04FA2BCBFFA10091092A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA1C04FB2BCBFFA10091092A /* Build configuration list for PBXNativeTarget "VTFrameworksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA1C04FC2BCBFFA10091092A /* Debug */,
-				EA1C04FD2BCBFFA10091092A /* Release */,
+				EA1C05312BCC0AC90091092A /* Debug */,
+				EA1C05322BCC0AC90091092A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA1C04DB2BCBFFA10091092A /* Project object */;
+	rootObject = EA1C05202BCC0AC90091092A /* Project object */;
 }
