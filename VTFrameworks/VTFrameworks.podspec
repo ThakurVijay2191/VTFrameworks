@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "VTFrameworks"
-spec.version      = "1.0.1"
+spec.version      = "1.0.4"
 spec.summary      = "This is VTFrameworks in which you can find all helping methods and components for your project."
 spec.description  = "This is the place where you can get any helpful component or library and can integrate in your project without any difficulty and in a simple way.."
 
