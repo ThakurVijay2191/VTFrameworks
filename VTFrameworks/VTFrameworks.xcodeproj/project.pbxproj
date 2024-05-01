@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA036DCE2BE23FD90010DD8A /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA036DCD2BE23FD90010DD8A /* Carousel.swift */; };
 		EA1C052D2BCC0AC90091092A /* VTFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1C052C2BCC0AC90091092A /* VTFrameworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA1C05342BCC0AD20091092A /* ChipLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C05332BCC0AD20091092A /* ChipLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA036DCD2BE23FD90010DD8A /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		EA1C05292BCC0AC90091092A /* VTFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1C052C2BCC0AC90091092A /* VTFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTFrameworks.h; sourceTree = "<group>"; };
 		EA1C05332BCC0AD20091092A /* ChipLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipLayout.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				EA1C052C2BCC0AC90091092A /* VTFrameworks.h */,
 				EA1C05332BCC0AD20091092A /* ChipLayout.swift */,
+				EA036DCD2BE23FD90010DD8A /* Carousel.swift */,
 			);
 			path = VTFrameworks;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1C05342BCC0AD20091092A /* ChipLayout.swift in Sources */,
+				EA036DCE2BE23FD90010DD8A /* Carousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
